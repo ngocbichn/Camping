@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #faf4f2;
+}
+.header {
+  background-color: #f8e1db;
+  padding: 10px 30px 10px;
+}
+
+.header .logo img {
+  width: 60px;
+  margin-left: 40px;
+}
+
+.header .navbar {
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.header .navbar a {
+  text-decoration: none;
+  color: #655d5b;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 30px;
+}
+
+.header .navbar a:hover {
+  color: #ff0000;
+}
+
+.carousel {
+  background-image: url(../img/BG.png);
+  height: 650px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.activity {
+  padding: 80px 0;
+}
+
+.activity .title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.activity .title h1 {
+  color: #8d8d8d;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.activity .main .row .col {
+  float: left;
+  width: 25%;
+
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+.activity .main .item {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.activity .main .item .thumbnail img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.activity .main .item h1 {
+  font-size: 17px;
+  font-weight: bold;
+  margin: 15px 0;
+  color: #43403e;
+}
+
+.activity .main .item p {
+  font-size: 13px;
+  line-height: 25px;
+  color: #8d8d8d;
+  margin-bottom: 15px;
+}
+
+.activity .main .item a {
+  background-color: #e8e8e8;
+  padding: 10px 40px;
+  display: inline-block;
+  text-decoration: none;
+  color: #8d8d8d;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.activity .main .item .thumbnail {
+  position: relative;
+}
+
+.activity .main .item .thumbnail i {
+  font-size: 15px;
+  color: #e76f51;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 10px;
+  border-radius: 30%;
+}
+
+.activity .main .clear {
+  clear: both;
+}
+
+.activity .main .button {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.activity .main .button a {
+  color: #e77052;
+  text-align: center;
+  border: #e77052 solid 2px;
+  border-radius: 30px;
+  padding: 15px 70px;
+  background-color: transparent;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact {
+  background-color: #f8e1db;
+  border-radius: 15px;
+  margin-bottom: 90px;
+  display: inline-block;
+  width: 100%;
+}
+
+.contact .contact_left {
+  float: left;
+  width: 50%;
+  padding: 20px 60px;
+}
+
+.contact .contact_right {
+  float: left;
+  width: 50%;
+  padding: 20px 60px;
+}
+
+.contact .contact_left {
+  background-image: url(../img/mask.png);
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+
+.contact_left img {
+  height: 270px;
+}
+
+.contact .contact_right {
+  padding-top: 45px;
+}
+
+.contact .contact_right h2 {
+  color: #8d8d8d;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.contact .contact_right p {
+  color: #8d8d8d;
+  font-size: 15px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.contact_right .app {
+  float: left;
+  width: 50%;
+}
+
+.contact_right .follow {
+  float: left;
+  width: 50%;
+}
+
+.contact_right h3 {
+  color: #8d8d8d;
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.contact_right .app img {
+  width: 120px;
+}
+
+.contact_right i {
+  font-size: 20px;
+  color: #e77052;
+  margin-right: 10px;
+}
+
+.footer {
+  background-color: #f8e1db;
+  display: inline-block;
+  border-top-right-radius: 10%;
+  border-top-left-radius: 10%;
+  width: 100%;
+  padding: 80px 30px;
+  color: #3a3735;
+}
+
+.footer .content{
+    margin-bottom: 30px;
+}
+
+.footer .content .about {
+  float: left;
+  width: 40%;
+  line-height: 25px;
+  padding: 0 20px;
+}
+
+.footer .content .list {
+  float: left;
+  width: 60%;
+}
+
+.footer .about h2 {
+  
+    font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.footer .about p {
+  font-size: 13px;
+}
+
+.footer .list .col {
+  float: left;
+  width: calc(100% / 3);
+}
+
+.footer .list .col h3 {
+  
+    margin-bottom: 15px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.footer .list .col ul {
+  list-style: none;
+  font-size: 13px;
+  line-height: 25px;
+}
+
+.clear{
+    clear: both;
+}
+
+.footer .copyright{
+    text-align: center;
+    font-size: 13px;
+}
